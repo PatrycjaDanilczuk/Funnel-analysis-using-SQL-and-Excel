@@ -32,7 +32,7 @@ how many users in total get to the checkout._
    
 10.	Creating final table showing number of events per 3 top countries  by category.
     
-The SQL code can be accessed here
+The SQL code can be accessed [here](https://github.com/PatrycjaDanilczuk/Funnel-analysis-using-SQL-and-Excel/blob/main/Funnel_category_SQL%20Code)
 
 **Step2**: Providing analysis charts and actionable insights in Excel
 
