@@ -15,7 +15,7 @@ is in converting your customers to reach your specified goal._
 Use raw_events table hosted in BigQuery project. Data in raw_events table captures a lot of events from users based on their timestamps.
 <details>
 
-<summary>Click to view dataset schema</summary>
+<summary>Click to expand dataset schema</summary>
 
 
 | Field name | Type | Mode |
