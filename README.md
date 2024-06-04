@@ -12,7 +12,47 @@ rates and drop off rates at each step. Also in cases where you are comparing sev
 is in converting your customers to reach your specified goal._
 
 ## Dataset description
-Use raw_events table hosted in BigQuery project. Data in raw_events table captures a lot of events from users based on their timestamps (user_pseudo_id, event_name, event_timestamp, event_date, event_value_in_usd, user_id, user_first_touch_timestamp, category, mobile_model_name, mobile_brand_name, operating_system, language, is_limited_ad_tracking, browser, browser_version, country, medium, name, traffic_source, platform, total_item_quantity, purchase_revenue_in_usd, refund_value_in_usd, shipping_value_in_usd, tax_value_in_usd, transaction_id, page_title, page_location, source, page_referrer, campaign).
+Use raw_events table hosted in BigQuery project. Data in raw_events table captures a lot of events from users based on their timestamps.
+<details>
+
+<summary>Click to view dataset schema</summary>
+
+
+| Field name | Type | Mode |
+|---------------|-----------|-----------|
+| event_date | STRING | NULLABLE |
+| event_timestamp | INTEGER | NULLABLE |
+| event_name |	 STRING | NULLABLE |
+| event_value_in_usd| FLOAT| NULLABLE|
+| user_id | STRING| NULLABLE|
+| user_pseudo_id| STRING| NULLABLE|
+| user_first_touch_timestamp| INTEGER| NULLABLE|
+| category| STRING| NULLABLE |
+| mobile_model_name | STRING| NULLABLE |
+| mobile_brand_name |STRING | NULLABLE |
+| operating_system | STRING | NULLABLE |
+| language | STRING | NULLABLE |
+| is_limited_ad_tracking| STRING | NULLABLE |
+| browser | STRING | NULLABLE |
+| browser_version | STRING | NULLABLE |
+| country | STRING | NULLABLE |
+| medium | STRING | NULLABLE |
+| name | STRING | NULLABLE |
+| traffic_source | STRING | NULLABLE |
+| platform | STRING | NULLABLE |
+| total_item_quantity | INTEGER | NULLABLE |
+| purchase_revenue_in_usd | FLOAT | NULLABLE |
+| refund_value_in_usd | FLOAT | NULLABLE |
+| shipping_value_in_usd | FLOAT | NULLABLE |
+| tax_value_in_usd | FLOAT | NULLABLE |
+| transaction_id	 | STRING | NULLABLE |
+| page_title | STRING | NULLABLE |
+| page_location	 | STRING | NULLABLE |
+| source | STRING | NULLABLE |
+| page_referrer	 | STRING | NULLABLE |
+| campaign | STRING | NULLABLE |
+
+</details>
 
 ## Steps applied
 
