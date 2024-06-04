@@ -17,6 +17,7 @@ Use raw_events table hosted in BigQuery project. Data in raw_events table captur
 
 <summary>Click to expand dataset schema</summary>
 
+### raw_events schema
 
 | Field name | Type | Mode |
 |---------------|-----------|-----------|
