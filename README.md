@@ -55,7 +55,7 @@ Use raw_events table hosted in BigQuery project. Data in raw_events table captur
 
 </details>
 
-## Steps applied
+## Steps description
 
 **Step1:** Creating SQL query to retrieve the necessary data applying the following logic:
 1.	Creating unique events CTE – 1 unique event per user_pseudo_id at each step of the funnel to eliminate duplicated data, by selecting first event occurrence for each event per user using ROW_NUMBER() function; using min() in this case was not enough to receive first event only.
@@ -77,4 +77,6 @@ The SQL code can be accessed [here](https://github.com/PatrycjaDanilczuk/Funnel-
 
 **Step2**: Providing analysis, charts and actionable insights in Excel
 
-The analysis can be accessed [here](https://github.com/PatrycjaDanilczuk/Funnel-analysis-using-SQL-and-Excel/blob/main/Funnel_analysis_raw%20events.xlsx)
+## Analysis results
+
+The analysis and insides have been provided in the uploaded [Excel file](https://github.com/PatrycjaDanilczuk/Funnel-analysis-using-SQL-and-Excel/blob/main/Funnel_analysis_raw%20events.xlsx)
